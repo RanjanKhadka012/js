@@ -10,7 +10,7 @@ function clicked(){
     ab=()=>{
         console.log("oi samane")
     }
-    setTimeout(ab,2000);
+    a=setInterval(ab,2000);
 }
 window.onload = function(){
     console.log("the document has loaded")
